@@ -1,4 +1,60 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: kyle.matthew.magnaye
+* Created on: Apr 2025
 * This file contains the CSS for index.html
 */
+body {
+  background: lightblue;
+}
+
+
+.mdl-layout__header-row {
+  justify-content: center;
+  padding: 0;
+}
+
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+
+.mdl-textfield__error {
+  color: lightgreen;
+}
+
+
+.page-content {
+  color: rgb(186, 34, 34);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+
+img {
+  float: right;
+  height: 200px;
+}
+/* Make the radio buttons black */
+.mdl-radio__button {
+  background-color: black !important;
+  border: 2px solid rgb(0, 0, 0) !important;
+}
+
+/* Change the radio button color when selected */
+.mdl-radio__button:checked {
+  background-color: black !important;
+  border: 2px solid rgb(0, 0, 0) !important;
+}
+
+/* Modify the label text color to white for better contrast */
+.mdl-radio__label {
+  color: rgb(0, 0, 0) !important;
+}
+
+/* Optional: Change the hover color of the radio button */
+.mdl-radio__button:hover {
+  background-color: #333 !important;
+  /* Slightly lighter black for hover */
+}
